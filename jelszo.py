@@ -21,3 +21,11 @@ print (jelszo_kisbetu(3))
 print (jelszo_nagybetu(3))
 print (jelszo_spec(2))
 
+def jelszo_abc(db)
+	szoveg=""
+	tomb="abcdefghijklmnopqrstuvwxyz"
+	for x in range (0,db)
+		szoveg+=tomb[random.randint(0,len(tomb))]:
+	return szoveg
+	
+print (jelszo_kisbetu(3))
