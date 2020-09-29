@@ -10,14 +10,21 @@ print (jelszo_szam(5))
 print (jelszo_szam(8))
 
 def jelszo_spec(db):
-	szoveg=""
-	tomb="*>;<@&#~"
+	szoveg2=""
+	tomb2="*>;<@&#~"
 	for x in range (0,db):
-			szoveg+=tomb[random.randint(0,len(tomb))]
-	return szoveg
+			szoveg2+=tomb2[random.randint(0,len(tomb))]
+	return szoveg2
 print (jelszo_szam(1))
 print (jelszo_szam(5))
 print (jelszo_szam(8))	
+	
+def jelszo_nagybetu(db):
+	szoveg3=""
+	tomb3="QWERTZUIOPASDFGHJKLYXCVBNM"
+for i in range (0,jelszohossz):
+	szoveg3+=tomb3[random.randint(0,len(abc)-1)]
+	return szoveg3
 	
 print (jelszo_szam(2))
 print (jelszo_kisbetu(3))
