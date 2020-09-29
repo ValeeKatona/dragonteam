@@ -15,3 +15,9 @@ def jelszo_spec(db):
 	for x in range (0,db):
 			szoveg+=tomb[random.randint(0,len(tomb))]
 	return szoveg		
+	
+	
+print (jelszo_szam(2))
+print (jelszo_kisbetu(3))
+print (jelszo_nagybetu(3))
+print (jelszo_specspec(2))
