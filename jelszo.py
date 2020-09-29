@@ -16,8 +16,8 @@ def jelszo_spec(db):
 			szoveg+=tomb[random.randint(0,len(tomb))]
 	return szoveg		
 	
-	
 print (jelszo_szam(2))
 print (jelszo_kisbetu(3))
 print (jelszo_nagybetu(3))
-print (jelszo_specspec(2))
+print (jelszo_spec(2))
+
